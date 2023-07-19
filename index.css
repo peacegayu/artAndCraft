@@ -1,9 +1,53 @@
-.container{
-    
+
+p {
+  font-family: "Helvetica", sans-serif;
 }
-.container h1{
-    font-family: Helvetica;
-font-size: 100px;
-font-weight: bold;
-color: khaki;
+
+h1 {
+  font-family: "Helvetica", sans-serif;
+  background-image: url("pattern.webp");
+  text-align: center;
+  font-size: 100px;
+  color: khaki;
+}
+
+.brush h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.frame h3 {
+  font-family: "Helvetica", sans-serif;
+}
+
+.paint {
+  color: white;
+  font-weight: bold;
+  
+}
+.paint p{
+  color: black;
+}
+.paint h2 {
+  font-weight: bold;
+}
+
+#brush {
+  background-color: mediumspringgreen;
+}
+
+#frame {
+  color: white;
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+.amount{
+  color: blue;
+}
+.dark{
+  color: black;
 }
